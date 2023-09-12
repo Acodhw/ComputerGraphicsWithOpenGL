@@ -100,6 +100,22 @@ void rendering() {
 
 	glEnd();
 
+	/* Tetrahedron Draw with GL_TRIANGLE_STRIP option
+	glBegin(GL_TRIANGLE_STRIP); 
+	glColor3d(1, 0, 0);
+	glVertex3d(point1[0], point1[1], point1[2]);
+	glColor3d(1, 1, 0);
+	glVertex3d(point2[0], point2[1], point2[2]);
+	glColor3d(0, 1, 0);
+	glVertex3d(point3[0], point3[1], point3[2]);
+	glColor3d(0, 0, 1);
+	glVertex3d(point4[0], point4[1], point4[2]);
+	glColor3d(1, 0, 0);
+	glVertex3d(point1[0], point1[1], point1[2]);
+	glColor3d(1, 1, 0);
+	glVertex3d(point2[0], point2[1], point2[2]);
+	glEnd();*/
+
 	glutSwapBuffers(); // Buffer Swap
 }
 
